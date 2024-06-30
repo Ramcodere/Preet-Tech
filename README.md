@@ -4,17 +4,17 @@
 
 mern-authentication/
 ├── client/
-│ ├── public/
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ ├── App.js
-│ └── index.js
+│   ├── public/         # Public assets for the React client
+│   └── src/            # Source code for the React client
+│       ├── components/ # React components
+│       ├── pages/      # Different pages (e.g., Home, Login, Signup)
+│       ├── App.js      # Main App component
+│       └── index.js    # Entry point for the React application
 └── server/
-├── models/
-├── routes/
-├── index.js
-└── package.json
+    ├── models/         # MongoDB models (e.g., User.js)
+    ├── routes/         # Express routes (e.g., authRoutes.js)
+    ├── index.js        # Entry point for the Express server
+    └── package.json    # Dependencies and scripts for the backend
 
 ## Project Setup Overview
 
